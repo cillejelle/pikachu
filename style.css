@@ -132,6 +132,13 @@ footer p {
     outline-offset: -10px;
 }
 
+@media screen and (max-width: 620px) {
+    .gallery-image {
+        width: 50%;
+
+    }
+}
+
 /* about area */
 
 .about-container{
@@ -139,6 +146,7 @@ footer p {
     overflow: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 
